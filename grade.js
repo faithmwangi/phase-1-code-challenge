@@ -7,21 +7,20 @@ if (marks >= 0 && marks <= 100) {
   // Grade based on inputed marks
   let message = "Student Grade: ";
   if (marks > 79) {
-    console.log(`${message}A`);
+    alert(`${message}A`);
   } else if (marks >= 60 && marks <= 79) {
-    console.log(`${message}B`);
+    alert(`${message}B`);
   } else if (marks >= 50 && marks <= 59) {
-    console.log(`${message}C`);
+    alert(`${message}C`);
   } else if (marks >= 40 && marks <= 49) {
-    console.log(`${message}D`);
+    alert(`${message}D`);
   } else {
-    console.log(`${message}E`);
+    alert(`${message}E`);
   }
 } else {
   // Input is not between 0 and 100
-  console.log("Invalid input");
+  alert("Invalid input");
 }
-
 
 
 
