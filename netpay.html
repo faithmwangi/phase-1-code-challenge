@@ -7,15 +7,36 @@
     <link rel="stylesheet" type="text/css" href="netpay.css">
     <title>Code Challenge</title>
 </head>
-
 <body>
     <nav>
         <ul>
             <li><a href="grade.html">Grade Generator</a></li>
             <li><a href="speed.html">Speed Calculator</a></li>
-            <li><a href="netpay.html">Net Pay Calculator</a></li>
+            <li><a href="netpay.html">Net Salary Calculator</a></li>
         </ul>
     </nav>
-    <h1>Netpay Generator</h1>
+    <h1>Net Salary Calculator</h1>
+    <form>
+        <label for="basicSalary">Basic Salary:</label>
+        <input type="number" id="basicSalary" name="basicSalary" required>
+        <br><br>
+        <label for="benefits">Benefits:</label>
+        <input type="number" id="benefits" name="benefits" required>
+        <br><br>
+        <button type="button" onclick="calculateNetSalary()">Calculate Net Salary</button>
+        <br><br>
+        <label for="grossSalary">Gross Salary:</label>
+        <label id="grossSalary"></label><br>
+        <label for="nhifDeductions">NHIF Deductions:</label>
+        <label id="nhifDeductions"></label><br>
+        <label for="nssfDeductions">NSSF Deductions:</label>
+        <label id="nssfDeductions"></label><br>
+        <label for="payee">PAYEE:</label>
+        <label id="payee"></label><br>
+        <label for="netSalary">Net Salary:</label>
+        <label id="netSalary"></label>
+    </form>
+    <div id="output"></div>
+    <script src="grade.js"></script>
 </body>
 </html>
