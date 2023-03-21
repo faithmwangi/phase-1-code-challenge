@@ -21,10 +21,10 @@ function calculateNetSalary() {
     const netSalary = grossSalary - nssfDeductions - payee - nhifDeductions;
   
     // Display the results in the HTML document
-    document.getElementById("grossSalary").innerHTML = `Gross Salary: ${grossSalary}`;
-    document.getElementById("nhifDeductions").innerHTML = `NHIF Deductions: ${nhifDeductions}`;
-    document.getElementById("nssfDeductions").innerHTML = `NSSF Deductions: ${nssfDeductions}`;
-    document.getElementById("payee").innerHTML = `PAYE: ${payee}`;
-    document.getElementById("netSalary").innerHTML = `Net Salary: ${netSalary}`;
+    document.getElementById("grossSalary").innerHTML = `${grossSalary}`;
+    document.getElementById("nhifDeductions").innerHTML = `${nhifDeductions}`;
+    document.getElementById("nssfDeductions").innerHTML = `${nssfDeductions}`;
+    document.getElementById("payee").innerHTML = `${payee}`;
+    document.getElementById("netSalary").innerHTML = `${netSalary}`;
   }
   
