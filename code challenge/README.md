@@ -33,7 +33,7 @@ Code challenge:
 > Run using live server
 *****
 ## Live Link
->https://willowy-mochi-0d3122.netlify.app
+
 *****
 ## Dependencies
 - 
