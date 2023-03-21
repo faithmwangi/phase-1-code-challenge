@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylsheet" type="text/css" href="grade.css">
+    <link rel="stylesheet" type="text/css" href="grade.css">
     <title>Code Challenge</title>
 </head>
 <body>
+    
     <nav>
         <ul>
             <li><a href="grade.html">Grade Generator</a></li>
@@ -20,9 +21,9 @@
         <label for="marks"> Enter student marks (between 0 and 100):</label>
         <input type="number" id="marks" name="marks">
         <br><br>
-        <input type="button" value="Generator Grade" onclick="generateGrade">
+        <input type="button" value="Generate Grade" onclick="generateGrade()">
     </form>
-    
+    <div id="output"></div>
 </body>
 <script src="grade.js"></script>
 </html>
