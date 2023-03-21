@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="speed.css">
+    <title>Code Challenge</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="grade.html">Grade Generator</a></li>
+            <li><a href="speed.html">Speed Detector</a></li>
+            <li><a href="netpay.html">Net Pay Calculator</a></li>
+        </ul>
+    </nav>
+    <h1>Speed Detector</h1>
+    <form>
+        <label for="speed">Enter the car's speed in km/h: </label>
+        <input type="number" id="speed" name="speed">
+        <br><br>
+        <input type="button" value="Check speed" onclick="checkSpeed()">
+    </form>
+    <div id="output"></div>
+
+</body>
+<script src="speed.js"></script>
+</html>
