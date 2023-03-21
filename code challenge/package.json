@@ -1,0 +1,11 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Code Challengee ***** ### Author : Faith Mwangi March 21 2023 **** ## Project Description Code challenge: 1.Student grade generator 2.Speed detector 3.Net Salary calculator ******",
+  "main": "grade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
