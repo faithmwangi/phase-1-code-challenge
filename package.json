@@ -1,7 +1,7 @@
 {
   "name": "phase-1-week-1-code-challenge",
   "version": "1.0.0",
-  "description": "code challenge",
+  "description": "code challenge : 1.Student grade generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,4 +17,3 @@
   },
   "homepage": "https://github.com/faithmwangi/phase-1-code-challenge#readme"
 }
-
